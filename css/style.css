@@ -1,39 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Cerative Agency
-@Author: Rocky
-@Developed By: Rocky
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ banner
-05/ slider
-06/ feature
-07/ button
-08/ service
-09/ testimonials 
-10/ blog 
-11/ contact 
-12/ footer 
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700");
 .col-md-offset-right-1, .col-lg-offset-right-1 {
@@ -289,7 +254,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
-  color: #97ccfe;
+  color: #002fff;
 }
 
 @media (min-width: 992px) {
@@ -302,7 +267,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav li:hover a, .main_menu_area .navbar .navbar-nav li.active a {
-  color: #0b1033;
+  color: #a5acf7;
 }
 
 .main_menu_area.navbar_fixed {
@@ -395,11 +360,11 @@ i:before {
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .first_text {
   font-weight: normal !important;
-  color: #0b1033;
+  color: #383838;
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .secand_text {
-  color: #6b7d8e;
+  color: #080808;
 }
 
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .more_btn {
@@ -421,19 +386,19 @@ i:before {
 }
 
 .main_slider_area .rev_slider .tp-bullets .tp-bullet.selected {
-  background: #97cdfe;
-  border-color: #97cdfe;
+  background: #fe97c7;
+  border-color: #fe97ad;
 }
 
 .main_slider_area .rev_slider .tp-leftarrow, .main_slider_area .rev_slider .tp-rightarrow {
   height: 120px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
-  background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#0000ff), color-stop(51%, #11173b), to(#000000));
+  background-image: -webkit-linear-gradient(left, #0000ff 0%, #11173b 51%, #000000 100%);
+  background-image: -o-linear-gradient(left, #0000ff 0%, #11173b 51%, #000000 100%);
+  background-image: linear-gradient(to right, #0000ff 0%, #11173b 51%, #000000 100%);
   background-size: 200% auto;
-  width: 138px;
-  border: 10px solid rgba(204, 241, 255, 0.5);
+  width: 90px;
+  border: 10px solid rgba(65, 23, 252, 0.5);
   -webkit-transition: all 400ms ease-out;
   -o-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
@@ -1263,10 +1228,10 @@ i:before {
 ============================================================================================ */
 .more_btn {
   padding: 0px 46px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#6fbcfe), color-stop(51%, #998dff), to(#6fbcfe));
-  background-image: -webkit-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
-  background-image: -o-linear-gradient(left, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
-  background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#0000ff), color-stop(51%, #11173b), to(#000000));
+  background-image: -webkit-linear-gradient(left, #0000ff 0%, #11173b 51%, #000000 100%);
+  background-image: -o-linear-gradient(left, #0000ff 0%, #11173b 51%, #000000 100%);
+  background-image: linear-gradient(to right, #0000ff 0%, #11173b 51%, #000000 100%);
   background-size: 200% auto;
   z-index: 2;
   display: inline-block;
@@ -1278,7 +1243,7 @@ i:before {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   line-height: 55px;
-  border: 6px solid rgba(204, 241, 255, 0.5);
+  border: 6px solid rgba(65, 23, 252, 0.5);
   border-radius: 33px;
 }
 
@@ -1288,10 +1253,10 @@ i:before {
 }
 
 .submit_btn {
-  background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
-  background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
-  background-image: linear-gradient(to right, #70bafe 0%, #998dff 51%, #70bafe 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#0000ff), color-stop(51%, #11173b), to(#000000));
+  background-image: -webkit-linear-gradient(left, #0000ff 0%, #11173b 51%, #000000 100%);
+  background-image: -o-linear-gradient(left, #0000ff 0%, #11173b 51%, #000000 100%);
+  background-image: linear-gradient(to right, #0000ff 0%, #11173b 51%, #000000 100%);
   background-size: 200% auto;
   z-index: 2;
   width: 176px;
@@ -1308,7 +1273,7 @@ i:before {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   line-height: 58px;
-  border: 6px solid rgba(204, 241, 255, 0.5);
+  border: 6px solid rgba(65, 23, 252, 0.5);
   border-radius: 33px;
 }
 
